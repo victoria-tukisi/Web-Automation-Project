@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Validate User List Table(failed)">
+    <classes>
+      <class name="CIB_DIGITAL_TECH.ValidateUserListTableTest">
+        <methods>
+          <include name="validateByUserNameColumn"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- CIB_DIGITAL_TECH.ValidateUserListTableTest -->
+    </classes>
+  </test> <!-- Validate User List Table(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,5 @@
+resources\base.class
+pageObjects\AddUserModalDialog.class
+pageObjects\UserListTablePage.class
+CIB_DIGITAL_TECH\App.class
+resources\ExtentReporterNG.class

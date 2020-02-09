@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="20778" started-at="2018-11-23T00:44:49Z" finished-at="2018-11-23T00:45:09Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="20778" started-at="2018-11-23T00:44:49Z" finished-at="2018-11-23T00:45:09Z">
+      <class name="CIB_DIGITAL_TECH.ValidateUserListTableTest">
+        <test-method status="PASS" signature="validateByUserNameColumn()[pri:0, instance:CIB_DIGITAL_TECH.ValidateUserListTableTest@13969fbe]" name="validateByUserNameColumn" duration-ms="179" started-at="2018-11-23T02:45:07Z" finished-at="2018-11-23T02:45:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateByUserNameColumn -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:CIB_DIGITAL_TECH.ValidateUserListTableTest@13969fbe]" name="teardown" is-config="true" duration-ms="2513" started-at="2018-11-23T02:45:07Z" finished-at="2018-11-23T02:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- CIB_DIGITAL_TECH.ValidateUserListTableTest -->
+      <class name="CIB_DIGITAL_TECH.UserListTableWebTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:CIB_DIGITAL_TECH.UserListTableWebTest@5f2050f6]" name="initialize" is-config="true" duration-ms="4463" started-at="2018-11-23T02:44:49Z" finished-at="2018-11-23T02:44:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:CIB_DIGITAL_TECH.ValidateUserListTableTest@13969fbe]" name="initialize" is-config="true" duration-ms="5730" started-at="2018-11-23T02:44:53Z" finished-at="2018-11-23T02:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testUserListTable(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CIB_DIGITAL_TECH.UserListTableWebTest@5f2050f6]" name="testUserListTable" duration-ms="4881" started-at="2018-11-23T02:44:59Z" data-provider="getData" finished-at="2018-11-23T02:45:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FName1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LName1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pass1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Company AAA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[admin@mail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[082555]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserListTable -->
+        <test-method status="PASS" signature="testUserListTable(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CIB_DIGITAL_TECH.UserListTableWebTest@5f2050f6]" name="testUserListTable" duration-ms="2988" started-at="2018-11-23T02:45:04Z" data-provider="getData" finished-at="2018-11-23T02:45:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FName2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LName2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pass2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Company BBB]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Customer]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[customer@mail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[083444]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserListTable -->
+      </class> <!-- CIB_DIGITAL_TECH.UserListTableWebTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
